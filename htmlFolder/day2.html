@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //  "use strict"; 
+        // <!--use strict 위에는 주석만 사용 가능-->
+    
+    // <!--변수-->
+    // let message;
+
+    // <!--할당 연산자 "="를 사용하여 변수안에 데이터 저장-->
+    // message = "hello";
+    
+    let message = "Hello!"
+
+    // 한줄에 여러 변수 선언 
+    //권장하지 않는다
+    // let user = "John", age = 25, message = "Hello";
+
+    // let user = "John",
+    // let age = 25,
+    // let message = "Hello";
+
+    // let user = "John",
+    //     age = 25,
+    //     message = "hello";
+
+    // let user = "John"
+    //   , age = 25,
+    //   , message = "Hello";
+        
+    message = "World" //값 변경
+
+    let Hello;
+    
+    Hello = message; // 값 변경
+
+    let message; //let은 여러번 선언할 수 없다
+    //SyntaxError: 'message' has already been declared
+
+    // alert(message)
+
+    //상수 선언
+    const constantValue = "1l1l1";
+    constantValue = "22"//error
+
+    //숫자형
+    let n = 123;
+    n = 12.345;
+    
+    alert(1 / 0) //무한대 :: Infinity
+    alert(Infinity) // 직접 참조할 수 있다.
+
+    alert("숫자가 아님"/ 2)// NaN
+    alert("숫자가 아님 "/ 2 + 5)
+
+    //BigInt
+    const BigInt = 12312124123123123123n;
+
+    let str = "Hello"; //큰 따옴표
+    let str2 = 'Single quotes are ok too'; // 작은따옴표
+    let phrase = `can embed another ${str}`; //백틱
+
+    let name = "John";
+    alert(`Hello, ${name}!`) //변수를 문자열 중간에 삽입
+    //Hello John
+    alert(`the result is ${1 + 2}`)//표현식을 문자열 중간에 삽입
+    // the result is 3
+    
+</script>
+</body>
+</html>
